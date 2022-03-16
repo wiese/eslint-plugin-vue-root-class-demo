@@ -10,5 +10,11 @@ module.exports = {
   ],
   "env": {
     "vue/setup-compiler-macros": true
+  },
+  "plugins": [
+    "vue-root-class"
+  ],
+  "rules": {
+    "vue-root-class/vue-root-class": [ "error", { class: "foobar" } ],
   }
 }
